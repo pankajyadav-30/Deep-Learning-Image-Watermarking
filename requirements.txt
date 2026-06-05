@@ -1,0 +1,30 @@
+
+---
+
+# requirements.txt
+
+Create a file named `requirements.txt`
+
+```text
+torch
+torchvision
+torchaudio
+
+numpy
+pandas
+
+opencv-python
+
+matplotlib
+
+scikit-learn
+
+Pillow
+
+tqdm
+
+kagglehub
+
+lxml
+
+scipy
