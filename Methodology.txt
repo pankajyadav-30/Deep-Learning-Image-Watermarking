@@ -1,0 +1,25 @@
+##Stage 1: Image Partitioning
+
+GrabCut segmentation
+Morphological dilation
+Generation of:
+* Object Mask
+* Background Mask
+
+##Stage 2: Watermark Embedding
+
+Two independent autoencoders:
+
+1. Object Autoencoder
+2. Background Autoencoder
+
+The watermark is embedded separately in both regions.
+
+##Stage 3: Image Recombination
+
+Merge object and background outputs
+Generate final watermarked image
+Preserve visual quality
+ 
+ 
+ 
