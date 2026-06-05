@@ -22,6 +22,13 @@ The system first separates an image into Object and Background regions using Gra
 
 PASCAL VOC 2012 Dataset
 
+Dataset statistics:
+
+Total Images Parsed: 17,125
+Training Images Used: 1,600
+Validation Images Used: 400
+Batch Size: 8
+
 Dataset downloaded using KaggleHub:
 
 ```python
@@ -32,10 +39,3 @@ path = kagglehub.dataset_download(
 )
 
 print(path)
-
-Dataset statistics:
-
-Total Images Parsed: 17,125
-Training Images Used: 1,600
-Validation Images Used: 400
-Batch Size: 8
